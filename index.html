@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Intro RDM</title>
+		<title>DMPs Grants</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css">
@@ -25,7 +25,7 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>Introduction to Research Data Management</h2><br/>
+					<h2>Writing a Data Management Plan<br/> for Grant Applications</h2><br/>
 					
 					<p>Vicky Steeves & Nick Wolf | DATE </p>
 
@@ -43,71 +43,62 @@
 					</aside>
 				</section>
 				
-				<!-- nested vertical slides!! -->
 				<section>
-				 <!--top level-->
 				<section>
-					<h2>Slide 2</h2>
+					<h2>What is Data Management?</h2>
 					
-					<img src="imgs/nesting-folders.gif">
+					<img src="imgs/lifecycle.png" style="float:left;">
 					
-					<!--CODE HIGHLIGHTING-->
-					<pre><code data-trim data-noescape>
-					print('Hello World, You Have Too Many Folders')
-					</code></pre>
-					
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
-				
+					<p><br/>Managing the way data is collected, processed, analyzed, preserved, and published for greater reuse by <span style="color: #f8981d">the community</span> and <span style="color: #f8981d">the original researcher</span>.
+						</p>
+										
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
-							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>	
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
 				</section>
-					
-				<!--1st basement-->
-				<section>
-					<h2>Slide 3</h2>
-					
-					<!--UNORDERED LIST-->
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-					
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
 				
+				<section>
+					<h2>What is Data? </h2>
+					
+						<p>"the recorded factual material commonly accepted in the scientific community as necessary to validate research findings." -Federal Office of Management & Budget Circular A-110</p>
+					
+						<img src="imgs/dataTypes.png">
+					
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
-							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>	
-				</section> 
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
 				
-				<!--2nd basement-->
-				<section>
-					<h2>Slide 4</h2>
+				<section>			
+					<h2>Federal Regulations</h2>
 					
-					<!--ORDERED LIST-->
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-						
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
+					<img src="imgs/dmp-timeline.png" align="middle">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<section>			
+					<h2>The Problem...</h2>
+					
+					<div style="width:20%; float:left;"><p>The majority of federally funded research is NOT reproducible.</p></div>
+					
+					<img src="imgs/reproducibility-stats.png" align="middle">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>			
+				
+				<section>
+					<h2>Disappearing Data</h2>
+					
+					<img src="imgs/disappearing-data.png" align="middle">
 				
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
@@ -115,89 +106,428 @@
 					</aside>
 				</section>
 				</section>
-			<!-- end nested slides -->
 				
 				<section>
-					<h2>Slide 5</h2>
+				<section>			
+					<h2>The Solution</h2>
 					
-					<!-- TABLE -->
+					<p>DATA MANAGEMENT PLAN</p>
+					
+					<div style="color: #000000;">
+						<p>a document that describes how you will collect, organise, manage, store, secure, backup, preserve, and share your data.</p>
+					</div>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<section>			
+					<h2>High-Level View of RDM</h2>
+					
 					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-						</tbody>
+					  <tr>
+						<th>Data Type</th>
+						<th>Group Roles</th> 
+						<th>Data Storage</th>
+						<th>Data Archiving</th>
+					  </tr>
+					  <tr>
+						<td>format of data to be generated</td>
+						<td>who is primarily responsible for carrying out  RDM? Set group norms</td> 
+						<td>where will you store your data and how will you backup your data?</td>
+						<td>how will you preserve and make your data available to others?</td>
+					  </tr>
 					</table>
 					
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
-					
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
 				</section>
 				
-				<section>
-					<h2>Slide 6</h2>
+				<section>			
+					<h2>How It Works</h2>
 					
-					<p><a href="#/0">Link to Slide 1</a></p>
-					
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
+					<img src="imgs/	dmp-steps.png" align="middle">
 				
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
 					</aside>
-				</section>
+				</section>	
 				
-				<section>
-					<h2>Slide 7</h2>
+				<section>			
+					<h2>From NSF’s Data Management Plan Guidelines:</h2>
 					
-					<!--SHOW STUFF ONE AT A TIME-->
-					<p class="fragment" data-fragment-index="3">Appears last</p>
-					<p class="fragment" data-fragment-index="1">Appears first</p>
-					<p class="fragment" data-fragment-index="2">Appears second</p>
-					
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
-					</div>
-					
-					<!--SPEAKER NOTES-->
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-					
-					<section>
-					<h2>Slide 8</h2>
-					
-					<p>Video will stretch to fit the remainder of the screen!</p>	
-					<iframe class="stretch" src="https://www.youtube.com/embed/-zLPuwCHXo0" frameborder="0" allowfullscreen></iframe>
+					<div style="text-align:left; font-size: .83em;">
+					<ol>
+						<li><strong>the types of data</strong>, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project;</li>
+						<li><strong>the standards to be used for data and metadata format</strong> and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies);</li>
+						<li><strong>policies for access and sharing</strong> including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements;</li>
+						<li><strong>policies and provisions for re-use</strong>, re-distribution, and the production of derivatives; </li>
+						<li><strong>plans for archiving data</strong>, samples, and other research products, and for preservation of access to them.</li>
 						
-					<div class='footer'>
-						<hr/>
-						<p>Vicky's ORCID: <a href="orcid.org/0000-0003-4298-168X/">0000-0003-4298-168X</a> | Nick's ORCID: <a href="http://orcid.org/0000-0001-5512-6151">0000-0001-5512-6151</a><br/>
-						This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+					</ol>
 					</div>
+				
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				</section>
+				
+				<section>	
+				<section>			
+					<h2>Overview of Best Practices</h2>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<section>			
+					<h2>Documentation</h2>
+
+					<img src="imgs/documentation.png">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+					
+				<section>			
+					<h2>Documentation</h2>
+
+					<img src="imgs/documentation1.png">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<!--SLIDE 13-->
+				<section>			
+					<h2 align="left">Best Practices: Documentation with <img src="imgs/osf-logo.png" width="10%" height="10%"> the Open Science Framework</h2>
+
+					<ul>
+						<li><span style="color: #63d297;">Wiki</span>: document your lab procedures, standards, etc. </li>
+						<li><span style="color: #63d297;">Collaborators</span>: add collaborators of various levels to different parts of your project</li>
+						<li><span style="color: #63d297;">Components</span>: sub-projects to organize different parts of your research</li>
+						<li><span style="color: #63d297;">Version Control</span>: upload files of the same name & OSF will track your versions! </li>
+						<li><span style="color: #63d297;">Add-Ons</span>: use OSF to bring together tools you use | <a href="https://github.com/ViDA-NYU/reproducibility-news/commit/c13a87dc56e13ba0a80d5988129fad5fbf08e04f">GitHub</a></li>
+						<li><span style="color: #63d297;">Registrations</span>: when you have an unchanging version of your project, register it & get a DOI!</li>
+					</ul>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<!--SLIDE 14-->
+				<section>			
+					<h2 align="left">Best Practices: Documentation with <img src="imgs/jupyter-logo.png" width="10%" height="10%"> Jupyter Notebooks</h2>
+
+					<ol>
+					<li><span style="color: #63d297;">Web Application</span></li>
+						<ul>
+							<li>in-browser code editing: syntax highlighting & indentation</li>
+							<li>in-browser code execution: results attached to parent code</li>
+							<li>display results in LaTex, HTML, SVG, & more</li>
+						</ul>
+					<li><span style="color: #63d297;">Notebook</span></li>
+						<ul>
+							<li>a complete record of a session, interleaving code with text, maths, & objects</li>
+							<li>can export to LaTex, PDF, slideshows, etc. or webpage</li>
+						</ul>
+					</ol>
+								
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<!--SLIDE 15-->
+				<section>			
+					<h2>Basically, think to yourself: </h2>
+
+					<p class="fragment">if I wanted to use this data in <span style="color: #f8981d">10 years</span>, what would I need to pack with it to make it useful?</p>
+					
+					<p class="fragment"><strong>Keep all those things</strong></p>
+										
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>				
+				
+				<!--SLIDE 16-->
+				<section>		
+					<h2>Documenting Local Files</h2>
+
+					<img src="imgs/readme.png" align="middle">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>		
+				
+				<!--SLIDE 17-->
+				<section>		
+					<h2>Documenting Local Files</h2>
+					
+					<table class="stretch">
+					  <tr>
+						<th>Bulk File Renaming</th>
+						<th>Generating READMEs</th> 
+					  </tr>
+					  <tr>
+						<td>Concise with no special characters!<br/>
+
+							DST_20151029_fIlEnAmIn$<br/>
+							vs<br/>
+							2015-10-29_DST_FileName<br/><br/>
+						  
+							Programs:<br/>
+							Windows: <a href="https://sourceforge.net/projects/renameit/">Rename-It!</a> & <a href="https://mfr.osf.io/render?url=https://osf.io/bvfsp/?action=download%26mode=render">rename.bat</a><br/>
+							Mac: <a href="https://mrrsoftware.com/namechanger/">NameChanger</a> & <a href="https://osf.io/prvu4/">readme_maker_MAC</a><br/>
+						<td>A readme file is a .txt, .xml., or .html file that sits in a directory & explains the context and uses of each files in that same directory.<br/><br/>
+
+						Scripts:<br/>
+						Windows: <a href="https://osf.io/hgck9/">toHTML.bat</a>, <a href="https://osf.io/censw/">toCSV.bat</a>, & <a href="https://osf.io/m54dv/">toTXT.bat</a><br/><br/>
+						Mac: <a href="https://osf.io/kf3jg/">file_rename_mac</a></td>
+					  </tr>
+					</table>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>		
+				
+				<!--SLIDE 18-->
+				<section>			
+					<h2>Storage Rules!</h2>
+					
+					<img src="imgs/321.png" align="middle">
+					
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<!--SLIDE 19-->
+				<section>		
+					<h2>NYU Storage Resources</h2>
+
+					<table width="120%">
+						<tr>
+							<th>&nbsp;</th>
+							<th>NYU Google Drive</th>
+							<th>NYU Box</th>
+						</tr>
+						
+						<tr>
+							<th>Intended use</th>
+							<td>Personal archive not including sensitive or secure data</td>
+							<td>Departmental & personal research with a focus on sensitive or secure data</td>
+						</tr>
+						
+						<tr>
+							<th>Storage size</th>
+							<td>Unlimited</td>
+							<td>Unlimited</td>
+						</tr>
+						
+						<tr>
+							<th>Sharing and user control</th>
+							<td>Yes</td>
+							<td>Yes</td>
+						</tr>
+						
+						<tr>
+							<th>Versioning and file change tracking</th>
+							<td>Some</td>
+							<td>Yes</td>
+						</tr>
+						
+					</table>
+						
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<!--SLIDE 20-->
+				<section>		
+					<h2>Anonymizing Data</h2>
+					
+					<ul>
+						<li>Anonymizing data:</li>
+							<ul>
+								<li>Direct identifiers (name, DOB, SSN, address, id numbers, etc.)</li>
+								<li>Indirect identifiers (variables in combination that enable identification)</li>
+							</ul>
+
+						<li>Solutions:</li>
+							<ul>
+								<li>Removal of identifying variables</li>
+								<li>Binning values/top coding (i.e. hide unique outlier values or aggregate values)</li>
+								<li>Disturbing (add random values to encoded value, retaining integrity of statistical accuracy)</li>
+							</ul>	
+					</ul>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<!--SLIDE 21-->
+				<section>		
+					<h2>Long Term Storage</h2>
+
+					<table>
+						<tr>
+							<td style="width:50%;">Choose what you want to preserve/get to in the long term, but No matter WHAT, make sure you keep:<br/><br/>
+								<ul><li>documentation (lab/field notebooks, etc.)</li>
+									<li>tools & analysis</li>
+								</ul>
+							</td>
+							
+							<td style="width:50%;">Put your data into an archival format!<br/><br/>
+								<ul><li>this should be open + accessible</li>
+									<li>Software agnostic</li>
+								</ul>
+							</td>
+					</table><br/>
+					
+					<img src="imgs/archivalFormats.png" align="middle">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<!--SLIDE 22-->
+				<section>		
+					<h2>Long Term Storage in Data Repositories</h2>
+					
+					<div class="stretch">
+					
+					<span style="float:left; display:inline-block; width:55%">	
+						<p>When you publish, you should make the underlying data available in a repository that issues DOIs! You then <span style="color: #63d297;">link</span> that DOI in your "Supplementary Materials" section! <br/><br/>This means that anyone who wants to use your data <span style="color: #63d297;">must</span> go to this repository, download it, and <span style="color: #63d297;">cite their use</span> if they publish using it!</p>
+					</span>
+					
+					<div style="float:right; width:45%"><img src="imgs/dataRepositories.png"><br/><br/>
+						Example: <a href="http://datadryad.org/">Dryad Data Repository</a></div>
+						
+					</div>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<!--SLIDE 23-->
+				<section>		
+					<h2>Advantages to Tracking Citations:</h2>
+					
+					<ul style="text-align:left;">
+					
+					<li>Demonstrate to funders/promotion committees you & your data make big impacts in your field! </li>
+					<ul><li>they judge merit based on intellectual merit and wider impact</li>
+					<li>tangible evidence to weigh against the cost of research</li></ul><br/>
+
+					<li>Monitor usage of datasets!</li>
+					<ul><li>You can know what forms of data prep and data publication are most effective for sharing/open science!</li>
+					<li>Uncover opportunities for collaboration amongst peers</li></ul>
+					
+					</ul>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				
+				<!--SLIDE 24-->
+				<section>		
+					<h2>Getting Credit for Your Data</h2>
+
+					<img src="imgs/data-citations.png" align="middle">
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>	
+				</section>
+				
+				<section>					
+					
+					<h2>Example Data Management Plans</h2>
+					
+					<ul>
+						<li>NIH: <a href="https://dmptool.org/plans/17259.pdf">The United States Migraine Study Protocol</a></li><br/>
+						<li>NEH: <a href="https://dmptool.org/plans/15241.pdf">Subtitles and Accessibility</a></li><br/>
+						<li>NSF: <a href="https://dmptool.org/plans/20198.pdf">The American Public: Longitudinal Public Opinion Data Study </a></li>
+					</ul>
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<section>
+					<h2>DMP Resources at NYU</h2>
+					
+					<div style="width:49%; height:100%; float: left; padding-right: 1px;">
+						<a href="https://dmptool.org/user_sessions/institution"><img src="imgs/dmptool.jpg" align="middle"></a>
+						
+						<p>The DMPTool provides templates & step-by-step guidance on most granting agencies. NYU affiliates can sign into the DMP Tool using their netID and password from the <a href="https://dmptool.org/user_sessions/institution">institutional log-in page</a>.</p>
+					</div>
+					
+					<div style="width:49%; height:100%; float: right;">
+						<img src="imgs/vicky-headshot.jpg" height=30% width=30%>
+						<img src="imgs/nick-headshot.jpg" height=30% width=30%>
+						
+						<p>Vicky Steeves and Nick Wolf!</p>
+						<p>We can provide individual and group consultations while you are writing and maintaining your DMPs.  </p>
+						
+					</div> 
+					
+					<!--SPEAKER NOTES-->
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+				
+				<section>					
+					<div style="width:49%; height:100%; float: left; padding-right: 1px;">
+						<h2> RDM Bage</h2>
+						<p>We’ve created a badging system that gives you all points & a cute ribbon for all the great data management work that you do!<br/><br/>
+							<a href="https://osf.io/85bnv">https://osf.io/85bnv</a></p>
+					</div>
+					
+					<div style="width:49%; height:100%; float: right;">
+						<h2>Upcoming Classes</h2>
+						<p>TBA</p>						
+					</div> 
 					
 					<!--SPEAKER NOTES-->
 					<aside class="notes">
@@ -209,7 +539,7 @@
 				<section>
 					<h2>Thank you! Questions?</h2><br/>
 					
-					<p>Email us: <a href="mailto:victoria.steeves@nyu.edu">victoria.steeves@nyu.edu</a> & <a href="mailto:nicholas.wolf@nyu.edu">nicholas.wolf@nyu.edu</a></p>
+					<p>Email us: <a href="mailto:vicky.steeves@nyu.edu">vicky.steeves@nyu.edu</a> & <a href="mailto:nicholas.wolf@nyu.edu">nicholas.wolf@nyu.edu</a></p>
 					<p>Learn more about RDM: <a href="http://guides.nyu.edu/data_management">guides.nyu.edu/data_management</a></p>
 
 					<p>Get this presentation: <a href="http://guides.nyu.edu/data_management/resources">guides.nyu.edu/data_management/resources</a></p>
